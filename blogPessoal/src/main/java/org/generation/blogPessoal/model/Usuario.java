@@ -20,11 +20,9 @@ public class Usuario {
 	private String nome;
 	
 	@NotNull
-	@Size(min = 5, max = 50)
 	private String usuario;
 	
 	@NotNull
-	@Size(min = 8, max = 26)
 	private String senha;
 
 	public long getId() {
